@@ -4,13 +4,13 @@
         "version": " ANY",
         "mcVersion": "ANY",
         "imageUrl": "./assets/img/paper.jpg",
-        "downloadUrl": "https://github.com/SurGOI/MC-Modpacks/releases/download/(prismlaucnher-v1.0.0)install_modpack/PrismLauncher.Instaleren.van.een.modpack.txt"
+        "downloadUrl": "#"
     },
     {
         "name": "Omi & Evi Samen Spelen - (dieren Editie)",
         "version": "1.0.0",
         "mcVersion": "1.21.5",
         "imageUrl": "./assets/img/omi_&_evi.jpg",
-        "downloadUrl": "https://github.com/SurGOI/MC-Modpacks/releases/download/(1.21.5-v1.0.0)-mc_neo_forge_modpack_omi_evi_dieren_editie/Evi.Omi.Samen.Spelen.Dieren.Editie.-.NEO_FORGE.zip"
+        "downloadUrl": "#"
     }
 ]
