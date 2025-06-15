@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sur Gaming On Insulin - Modpacks</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body style="background-image: url('./assets/img/dirt.jpg')!important;" class="antialiased text-gray-900 flex flex-col min-h-screen">
+    <!-- Header Section - Fixed at the top -->
+    <header style="background-image: url('./assets/img/moss_block.jpg')!important;" class="fixed top-0 left-0 w-full z-50">
+        <div class="w-full max-w-7xl mx-auto text-center py-4 px-4 sm:px-6 lg:px-8">
+            <h1 class="text-5xl font-extrabold text-green-400 mb-4 rounded-lg p-4 shadow-md flex items-center justify-center gap-4">
+                <span><img src="./assets/img/SurGOI.jpg" alt="SurGOI Logo" class="h-12 w-auto rounded-lg"></span>
+                Modpacks voor Minecraft.
+            </h1>
+            <p class="text-xl text-gray-300">
+                Ontdek en download mijn nieuwste Minecraft modpacks!
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content Section - Padded to avoid being hidden by fixed header/footer -->
+    <main class="flex-grow w-full max-w-7xl mx-auto pt-48 pb-24 px-4 sm:px-6 lg:px-8">
+        <div id="modpack-container" class="flex flex-wrap justify-center gap-6">
+            <!-- Modpack cards will be dynamically loaded here -->
+            <p id="loading-message" class="text-gray-400">Modpacks laden...</p>
+        </div>
+    </main>
+
+    <!-- Footer Section - Fixed at the bottom -->
+    <footer style="background-image: url('./assets/img/moss_block.jpg')!important;" class="fixed bottom-0 left-0 w-full z-50">
+        <div class="w-full max-w-7xl mx-auto text-center py-4 px-4 sm:px-6 lg:px-8">
+            <p class="footer-color">&copy; 2025 <a href="https://surgoi.github.io/surgamingoninsulin/" target="_blank" class="text-green-300 hover:text-green-400 transition duration-200">Sur Gaming On Insulin</a> - Modpacks. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for loading modpacks -->
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

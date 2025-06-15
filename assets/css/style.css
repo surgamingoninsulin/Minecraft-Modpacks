@@ -1,0 +1,76 @@
+/* Custom CSS for consistent card height and image fitting */
+body {
+    font-family: 'Inter', sans-serif;
+    /* Minecraft Dirt Block background for the main content area */
+    background-color: #6B4E31; /* Fallback dirt color */
+    background-repeat: repeat;
+    background-size: 128px 128px; /* Size of the repeating tile */
+    color: #E0E0E0; /* Light text for readability on dark background */
+}
+
+/* Header specific background for the Minecraft Side Block */
+header {
+    background-color: #4A3F30; /* Fallback side block color */
+    background-repeat: repeat;
+    background-size: 128px 128px; /* Size of the repeating tile */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Add shadow to header */
+    min-height: 120px; /* Ensure header has a minimum height */
+    display: flex; /* Use flexbox to center content vertically */
+    align-items: center; /* Center content vertically */
+}
+
+/* Footer specific background, same as header */
+footer {
+    background-color: #4A3F30; /* Fallback side block color */
+    background-repeat: repeat;
+    background-size: 128px 128px; /* Size of the repeating tile */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.4); /* Shadow pointing upwards */
+    min-height: 80px; /* Ensure footer has a minimum height */
+    display: flex; /* Use flexbox to center content vertically */
+    align-items: center; /* Center content vertically */
+}
+.footer-color{
+    color: #fff;
+}
+
+/* Remove the general overlay, as specific backgrounds are now applied */
+.min-h-screen {
+    background-color: transparent; /* Ensure no overlay obscures the body background */
+}
+
+.modpack-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes content to top/bottom */
+    height: auto; /* Allow height to adjust based on content, but ensure consistency via image/padding */
+    text-decoration: none; /* Remove underline from link */
+    color: inherit; /* Inherit text color */
+    background-color: #3A4D5A; /* Slightly lighter slate for cards */
+    border: 2px solid #4CAF50; /* Green border for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Initial shadow */
+}
+.modpack-card-image {
+    height: 192px; /* Fixed height for images (48 * 4 = 192px) */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+    border-bottom: 2px solid #4CAF50; /* Green line under image */
+}
+
+/* Specific styles for elements within the modpack-card for the Dungeons theme */
+.modpack-card h3 {
+    color: #4CAF50; /* Lighter, more vibrant green for titles */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Subtle text shadow */
+}
+.modpack-card p {
+    color: #000000; /* Black for details (modpack and MC versions) */
+}
+.modpack-card .font-semibold {
+    color: #4CAF50; /* Slightly different green for bold text (labels) */
+}
+
+
+/* Hover effects for cards */
+.modpack-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.25); /* Darker, more pronounced shadow on hover */
+    border-color: #8BC34A; /* Brighter green border on hover */
+}
