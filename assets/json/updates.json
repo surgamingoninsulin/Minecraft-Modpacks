@@ -1,0 +1,41 @@
+﻿[
+  {
+    "id": "website-redesign-foundation",
+    "date": "2026-02-28",
+    "title": {
+      "nl": "Nieuwe one-page layout live",
+      "en": "New one-page layout is live"
+    },
+    "summary": {
+      "nl": "De website heeft nu een moderne cinematic stijl, featured packs en uitgebreide filters.",
+      "en": "The site now has a modern cinematic style, featured packs, and richer filtering."
+    },
+    "link": "https://github.com/surgamingoninsulin/Minecraft-Modpacks"
+  },
+  {
+    "id": "cobblelocal-r1-1-0",
+    "date": "2025-07-02",
+    "title": {
+      "nl": "CobbleLocal R1.1.0 uitgebracht",
+      "en": "CobbleLocal R1.1.0 released"
+    },
+    "summary": {
+      "nl": "Verbeterde stabiliteit, geupdate content en betere multiplayer compatibiliteit.",
+      "en": "Improved stability, updated content, and better multiplayer compatibility."
+    },
+    "link": "https://github.com/surgamingoninsulin/Minecraft-Modpacks/releases"
+  },
+  {
+    "id": "omi-evi-r1-0-0",
+    "date": "2025-06-10",
+    "title": {
+      "nl": "Omi & Evi Samen Spelen R1.0.0",
+      "en": "Omi & Evi Samen Spelen R1.0.0"
+    },
+    "summary": {
+      "nl": "Eerste publieke release van de dieren editie.",
+      "en": "First public release of the animal edition."
+    },
+    "link": "https://github.com/surgamingoninsulin/Minecraft-Modpacks/releases"
+  }
+]

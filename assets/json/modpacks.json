@@ -1,16 +1,44 @@
-[
-    {
-        "name": "Hoe Installer ik een modpack van SurGOI?",
-        "version": " ANY",
-        "mcVersion": "ANY",
-        "imageUrl": "./assets/img/paper.jpg",
-        "downloadUrl": "#"
+﻿[
+  {
+    "id": "omi-evi-samen-spelen-dieren-editie",
+    "featured": false,
+    "status": "stable",
+    "name": {
+      "nl": "Omi & Evi Samen Spelen (Dieren Editie)",
+      "en": "Omi & Evi Play Together (Animal Edition)"
     },
-    {
-        "name": "Omi & Evi Samen Spelen - (dieren Editie)",
-        "version": "1.0.0",
-        "mcVersion": "1.21.5",
-        "imageUrl": "./assets/img/omi_&_evi.jpg",
-        "downloadUrl": "https://github.com/surgamingoninsulin/Minecraft-Modpacks/releases/download/R1.0.0-dieren-editie/Evi.Omi.Samen.Spelen.Dieren.Editie.-.NEO_FORGE.zip"
-    }
+    "description": {
+      "nl": "Een gezellige familie-modpack met dieren, bouwen en rustige survival gameplay.",
+      "en": "A family-friendly modpack focused on animals, building, and calm survival gameplay."
+    },
+    "version": "1.0.0",
+    "mcVersion": "1.21.5",
+    "loader": "NeoForge",
+    "tags": ["family", "animals", "survival"],
+    "fileSizeMb": 182.4,
+    "updatedAt": "2025-06-10",
+    "imageUrl": "./assets/img/omi_&_evi.jpg",
+    "downloadUrl": "https://github.com/surgamingoninsulin/Minecraft-Modpacks/releases/download/R1.0.0-dieren-editie/Evi.Omi.Samen.Spelen.Dieren.Editie.-.NEO_FORGE.zip"
+  },
+  {
+    "id": "cobblelocal-pokemon-editie",
+    "featured": true,
+    "status": "stable",
+    "name": {
+      "nl": "CobbleLocal (Pok\u00e9mon Editie)",
+      "en": "CobbleLocal (Pokemon Edition)"
+    },
+    "description": {
+      "nl": "Verzamel en train Cobblemon in een lokale multiplayer ervaring met extra QoL mods.",
+      "en": "Collect and train Cobblemon in a local multiplayer experience with extra QoL mods."
+    },
+    "version": "1.1.0",
+    "mcVersion": "1.21.1",
+    "loader": "NeoForge",
+    "tags": ["pokemon", "cobblemon", "multiplayer"],
+    "fileSizeMb": 256.1,
+    "updatedAt": "2025-07-02",
+    "imageUrl": "./assets/img/pokemon-logo-(cobblemon).png",
+    "downloadUrl": "https://github.com/surgamingoninsulin/Minecraft-Modpacks/releases/download/R1.1.0-CobbleLocal/CobbleLocal-R1.1.0.zip"
+  }
 ]

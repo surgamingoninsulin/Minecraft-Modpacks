@@ -1,0 +1,237 @@
+﻿{
+  "hero": {
+    "eyebrow": {
+      "nl": "Sur Gaming On Insulin",
+      "en": "Sur Gaming On Insulin"
+    },
+    "title": {
+      "nl": "Minecraft Modpacks op een plek",
+      "en": "Minecraft Modpacks in one place"
+    },
+    "subtitle": {
+      "nl": "Ontdek nieuwe avonturen, family-friendly builds en experimentele releases. Alles op een pagina, zonder menu.",
+      "en": "Discover new adventures, family-friendly builds, and experimental releases. Everything on one page with no menu."
+    }
+  },
+  "sections": {
+    "featured": {
+      "title": {
+        "nl": "Nieuwe Modpacks",
+        "en": "New Modpacks"
+      },
+      "subtitle": {
+        "nl": "Handmatig gekozen highlights die je direct kunt downloaden.",
+        "en": "Hand-picked highlights you can download right away."
+      }
+    },
+    "allModpacks": {
+      "title": {
+        "nl": "Alle Modpacks",
+        "en": "All Modpacks"
+      },
+      "subtitle": {
+        "nl": "Filter op tags, Minecraft-versie en release status.",
+        "en": "Filter by tags, Minecraft version, and release status."
+      }
+    },
+    "install": {
+      "title": {
+        "nl": "Installatiegids",
+        "en": "Install Guide"
+      },
+      "subtitle": {
+        "nl": "Snelle stappen voor CurseForge, Prism Launcher of handmatige setup.",
+        "en": "Quick steps for CurseForge, Prism Launcher, or manual setup."
+      }
+    },
+    "updates": {
+      "title": {
+        "nl": "Updates en Changelog",
+        "en": "Updates and Changelog"
+      },
+      "subtitle": {
+        "nl": "Recente wijzigingen en release-notes van dit project.",
+        "en": "Recent changes and release notes for this project."
+      }
+    }
+  },
+  "filters": {
+    "searchLabel": {
+      "nl": "Zoeken",
+      "en": "Search"
+    },
+    "searchPlaceholder": {
+      "nl": "Zoek op naam of beschrijving...",
+      "en": "Search by name or description..."
+    },
+    "tagLabel": {
+      "nl": "Tags",
+      "en": "Tags"
+    },
+    "mcVersionLabel": {
+      "nl": "Minecraft-versie",
+      "en": "Minecraft version"
+    },
+    "statusLabel": {
+      "nl": "Status",
+      "en": "Status"
+    },
+    "clear": {
+      "nl": "Filters wissen",
+      "en": "Clear filters"
+    },
+    "allMcVersions": {
+      "nl": "Alle versies",
+      "en": "All versions"
+    },
+    "statusOptions": {
+      "all": {
+        "nl": "Alle statussen",
+        "en": "All statuses"
+      },
+      "stable": {
+        "nl": "Stabiel",
+        "en": "Stable"
+      },
+      "beta": {
+        "nl": "Beta",
+        "en": "Beta"
+      },
+      "archived": {
+        "nl": "Gearchiveerd",
+        "en": "Archived"
+      }
+    }
+  },
+  "card": {
+    "featuredBadge": {
+      "nl": "Uitgelicht",
+      "en": "Featured"
+    },
+    "versionLabel": {
+      "nl": "Versie",
+      "en": "Version"
+    },
+    "mcVersionLabel": {
+      "nl": "MC",
+      "en": "MC"
+    },
+    "loaderLabel": {
+      "nl": "Loader",
+      "en": "Loader"
+    },
+    "sizeLabel": {
+      "nl": "Grootte",
+      "en": "Size"
+    },
+    "updatedLabel": {
+      "nl": "Bijgewerkt",
+      "en": "Updated"
+    },
+    "downloadCta": {
+      "nl": "Download",
+      "en": "Download"
+    }
+  },
+  "states": {
+    "loading": {
+      "nl": "Laden...",
+      "en": "Loading..."
+    },
+    "errorModpacks": {
+      "nl": "Modpacks konden niet geladen worden. Probeer later opnieuw.",
+      "en": "Modpacks could not be loaded. Please try again later."
+    },
+    "errorUpdates": {
+      "nl": "Updates konden niet geladen worden.",
+      "en": "Updates could not be loaded."
+    },
+    "featuredEmpty": {
+      "nl": "Er zijn op dit moment geen uitgelichte modpacks.",
+      "en": "There are no featured modpacks right now."
+    },
+    "noResults": {
+      "nl": "Geen modpacks gevonden met deze filters.",
+      "en": "No modpacks match these filters."
+    },
+    "resultsCount": {
+      "nl": "{count} modpacks gevonden",
+      "en": "{count} modpacks found"
+    },
+    "clearInline": {
+      "nl": "Wis filters",
+      "en": "Clear filters"
+    }
+  },
+  "install": {
+    "intro": {
+      "nl": "Gebruik deze korte flow om elk modpack veilig te installeren en direct te starten.",
+      "en": "Use this short flow to install any modpack safely and launch quickly."
+    },
+    "steps": [
+      {
+        "nl": "Download het ZIP-bestand van het gewenste modpack via de downloadknop.",
+        "en": "Download the ZIP file for your chosen modpack using the download button."
+      },
+      {
+        "nl": "Open je launcher en maak een nieuwe custom instance op de juiste Minecraft-versie.",
+        "en": "Open your launcher and create a new custom instance on the correct Minecraft version."
+      },
+      {
+        "nl": "Kies de juiste modloader (NeoForge/Forge/Fabric) die bij het modpack hoort.",
+        "en": "Pick the correct mod loader (NeoForge/Forge/Fabric) required by the modpack."
+      },
+      {
+        "nl": "Importeer de bestanden of kopieer de inhoud van de ZIP naar de mods/map van je instance.",
+        "en": "Import files or copy ZIP contents into the mods folder of your instance."
+      },
+      {
+        "nl": "Start Minecraft en check of alle mods zonder foutmeldingen geladen zijn.",
+        "en": "Launch Minecraft and verify that all mods load without errors."
+      }
+    ],
+    "tipsTitle": {
+      "nl": "Veelvoorkomende fixes",
+      "en": "Common fixes"
+    },
+    "tips": [
+      {
+        "nl": "Gebruik exact dezelfde Minecraft-versie als op de modpack card staat.",
+        "en": "Use the exact Minecraft version listed on the modpack card."
+      },
+      {
+        "nl": "Geef je launcher minimaal 4-6 GB RAM voor grotere modpacks.",
+        "en": "Allocate at least 4-6 GB RAM for larger modpacks."
+      },
+      {
+        "nl": "Krijg je crashes? Verwijder oude mods uit je instance voordat je opnieuw installeert.",
+        "en": "Getting crashes? Remove old mods from your instance before reinstalling."
+      }
+    ]
+  },
+  "updates": {
+    "readMore": {
+      "nl": "Lees meer",
+      "en": "Read more"
+    }
+  },
+  "footer": {
+    "title": {
+      "nl": "Klaar om te spelen?",
+      "en": "Ready to play?"
+    },
+    "text": {
+      "nl": "Bekijk alle releases op GitHub en pak de nieuwste build van jouw favoriete modpack.",
+      "en": "Browse all releases on GitHub and grab the newest build of your favorite modpack."
+    },
+    "buttonLabel": {
+      "nl": "Open GitHub Releases",
+      "en": "Open GitHub Releases"
+    },
+    "buttonUrl": "https://github.com/surgamingoninsulin/Minecraft-Modpacks/releases",
+    "copyright": {
+      "nl": "Sur Gaming On Insulin - Alle rechten voorbehouden.",
+      "en": "Sur Gaming On Insulin - All rights reserved."
+    }
+  }
+}
