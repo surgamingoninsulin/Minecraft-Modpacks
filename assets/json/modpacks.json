@@ -40,5 +40,26 @@
     "updatedAt": "2025-07-02",
     "imageUrl": "./assets/img/pokemon-logo-(cobblemon).png",
     "downloadUrl": "https://github.com/surgamingoninsulin/Minecraft-Modpacks/releases/download/R1.1.0-CobbleLocal/CobbleLocal-R1.1.0.zip"
+  },
+  {
+    "id": "animal-zoo-pack",
+    "featured": true,
+    "status": "stable",
+    "name": {
+      "nl": "Dierentuin pack",
+      "en": "Animal Zoo Pack"
+    },
+    "description": {
+      "nl": "Verzamel en alle dieren door de grootste dierentuin te maken in multiplayer ervaring met extra QoL mods.",
+      "en": "Collect and and save all animals by making the biggest zoo in multiplayer experience with extra QoL mods."
+    },
+    "version": "1.0.0",
+    "mcVersion": "26.3",
+    "loader": "Fabric",
+    "tags": ["Animal", "Zoo", "multiplayer"],
+    "fileSizeMb": 256.1,
+    "updatedAt": "2026-07-10",
+    "imageUrl": "./assets/img/AnimalZooPack.png",
+    "downloadUrl": "https://github.com/surgamingoninsulin/Minecraft-Modpacks/releases/download/R1.0.0-Animal_Zoo_Pack/Animal-Zoo-Pack1.0.0-26.3.zip"
   }
 ]
